@@ -11,7 +11,15 @@ module.exports = {
       padding: '20px',
       center: true
     },
-    extend: {},
+    extend: {  // здесь добавляем расширения
+      colors: {
+        lightblack: '#4D4244',
+        lightred: '#FF0D38',
+        darkred: '#D70026',
+        lightgray: '#747474',
+        darkgrey: '#272727'
+      }
+    },
   },
   plugins: [],
 }
