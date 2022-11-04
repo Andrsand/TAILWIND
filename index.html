@@ -13,16 +13,24 @@
 <body>
     <header>
         <div class="container">
-            <nav>
+            <nav class="flex justify-between items-center  pt-[26px]">
                 <a href="#"><img src="./img/Logo.svg" alt="logo"</a>
 
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li> 
-                    <li><a href="#"></a>Case Studies</li>
-                    <li><a href="#"></a>Careers</li>
-                    <li><a href="#"></a>Blog</li>
+                <ul class="flex gap-12 md:hidden"> <!-- md:hidden - меню пропадает при коллапсе-->
+                    <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">About</a></li> <!-- hover - состояние-->
+                    <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Services</a></li> 
+                    <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Case Studies</a></li>
+                    <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Careers</a></li>
+                    <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Blog</a></li>
                 </ul>
+
+                <!-- Burger Button ???-->
+                <button class="burger hidden md:block">
+                    <span class="burger-line top-line"></span>
+                    <span class="burger-line mid-line"></span>
+                    <span class="burger-line bottom-line"></span>
+
+                </button>
             </nav>
         </div>
     </header>
