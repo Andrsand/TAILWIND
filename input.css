@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Red Hat Display', sans-serif; /* подключение стиля шрифта для body*/
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1080px]
+    }
+}
