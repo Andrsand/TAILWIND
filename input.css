@@ -49,12 +49,17 @@ transform: translate(0, -50%);
     bottom: 0;
 }
 
-.burger.active>.top-line {
+.burger.active > .top-line {
     transform: translateY(8px) rotate(45deg);
     transition: .3s all ease;
 }
 
-.burger.active>.mid-line {
+.burger.active > .mid-line {
     opacity: 0;
+    transition: .3s all ease;
+}
+
+.burger.active > .bottom-line {
+    transform: translateY(-10px) rotate(-45deg);
     transition: .3s all ease;
 }

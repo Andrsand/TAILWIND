@@ -6,7 +6,7 @@ function burgerMenu() {
         burger.classList.toggle('active')
         menu.classList.toggle('hidden')
         menu.classList.toggle('flex')
-    })
+    });
 }
 
 burgerMenu()
