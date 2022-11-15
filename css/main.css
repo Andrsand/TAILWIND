@@ -591,6 +591,10 @@ body {
   margin-top: 0.75rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -860,6 +864,14 @@ body {
 .burger.active > .bottom-line {
   transform: translateY(-10px) rotate(-45deg);
   transition: .3s all ease;
+}
+
+.placeholder\:italic::-moz-placeholder {
+  font-style: italic;
+}
+
+.placeholder\:italic::placeholder {
+  font-style: italic;
 }
 
 .hover\:text-darkred:hover {
